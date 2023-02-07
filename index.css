@@ -1,0 +1,98 @@
+.myNav{
+  background-color:turquoise;
+  position:fixed;
+  width: 100%;
+  height: 80px;
+  line-height: 50px;
+  margin-top: -8px;
+}
+
+.myNav ul{
+  list-style: none;
+  padding:0;
+  margin: 0;
+  text-align: center;
+}
+
+.myNav li{
+  display: inline;
+  padding: 5%;
+}
+
+.myNav a{
+  text-decoration: none;
+  padding: 15px 16px;
+  color: blue;
+}
+
+#pic{
+  width: 100%;
+}
+
+p{
+  background-color: rgba(0, 86, 78, 0.443);
+  color: blue;
+  line-height: 2;
+  padding: 3%;
+  text-align: center;
+}
+
+ol{
+  list-style: none;
+}
+
+#contact{
+  margin: 20px;
+  padding: 15px;
+}
+
+#contact > label, input{
+  display:block;
+}
+
+input{
+  width: 100%;
+  padding:12px;
+  margin: 5px 0 22px 0;
+  background-color: rgba(217, 217, 204, 0.599);
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-width: 1px;
+}
+
+.video {
+  display: inline-block;
+  width: 40%;
+  margin-right: 10px;
+}
+
+.learnMore{
+  display: inline-block;
+  width: 40%;
+}
+
+.dropDown{
+  display: inline-block;
+  width: 100px;
+  background-color:rgba(217, 217, 204, 0.599);
+  margin-left: 10px;
+  margin-right: 40px;
+}
+
+#textArea{
+  display: block;
+  margin: 10px 0 10px 2px;
+}
+
+.btn{
+  background-color: turquoise;
+  border: none;
+  width: 100%;
+  padding: 12px;
+}
+
+.btn:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
